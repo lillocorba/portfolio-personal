@@ -294,16 +294,31 @@ body {
     border-radius: 20px;
     margin: 50px 10px 20px 0px;
     overflow: hidden;
+    border: solid 1px rgb(244, 244, 244);
 }
 
 .proyecto-img {
     width: 100%;
-    transform: translate(150px, 50px);
+    transform: translate(150px, 100px);
     margin-top: -50px;
 }
 
 .proyecto-img-2 {
-    transform: translate(100px, 100px);
+    width: 100%;
+    transform: translate(150px, 100px);
+    margin-top: -50px;
+}
+
+.proyecto-img-3 {
+    width: 100%;
+    transform: translate(150px, 100px);
+    margin-top: -50px;
+}
+
+.proyecto-img-4 {
+    width: 100%;
+    transform: translate(150px, 100px);
+    margin-top: -50px;
 }
 
 .proyecto-contenedor-2 {
@@ -313,6 +328,7 @@ body {
     border-radius: 20px;
     margin: 50px 0px 20px 10px;
     overflow: hidden;
+    border: solid 1px rgb(244, 244, 244);
 }
 
 .proyecto-contenedor-3 {
@@ -322,6 +338,7 @@ body {
     border-radius: 20px;
     margin: 0px 10px 0px 0px;
     overflow: hidden;
+    border: solid 1px rgb(244, 244, 244);
 } 
 
 .proyecto-contenedor-4 {
@@ -331,6 +348,7 @@ body {
     border-radius: 20px;
     margin: 0px 0px 0px 10px;
     overflow: hidden;
+    border: solid 1px rgb(244, 244, 244);
 }
 
 /* CLIENTES */
@@ -390,6 +408,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    background-image: url(../imagenes/shape-contacto.png);
 }
 
 .contacto-columna-1 {
