@@ -477,6 +477,23 @@ html, body {
     padding-top: 30px;
 }
 
+.linkMenu {
+    color: #313131;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links {
+    padding: 0px;
+}
+
+.linkMenu:hover {
+    font-size: 5.5em;
+}
+
 .logoMenu {
     font-weight: bold;
     font-size: 2em;
@@ -569,7 +586,7 @@ html, body {
 .contenedor-hero-boton {
     margin-top: 30px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .hero-boton, .hero-boton:hover {
@@ -659,8 +676,6 @@ html, body {
 
 /* PROYECTOS */
 
-/* PROYECTOS */
-
 .fila-proyectos-titulo {
     margin-top: 70px;
     padding-left: 25px;
@@ -702,16 +717,6 @@ html, body {
     margin-left: 50px;
 }
 
-.proyecto-contenedor {
-    background-color: #F7F4F3;
-    width: 300px;
-    min-width: 300px;
-    border-radius: 20px;
-    margin-left: 0px;
-    margin-top: 50px;
-    overflow: hidden;
-}
-
 .proyecto-img {
     width: 100%;
     transform: translate(150px, 50px);
@@ -720,6 +725,16 @@ html, body {
 
 .proyecto-img-2 {
     transform: translate(100px, 100px);
+}
+
+.proyecto-contenedor {
+    background-color: #F7F4F3;
+    width: 300px;
+    min-width: 300px;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
 .proyecto-contenedor-2 {
@@ -798,6 +813,7 @@ html, body {
     background-color: #F3F9F9;
     width: 300px;
     min-width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 
