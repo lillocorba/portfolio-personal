@@ -391,16 +391,33 @@ body {
 
 .cliente-contenedor {
     background-color: #F3F9F9;
-    width: 200px;
-    min-width: 200px;
-    height: 250px;
-    min-height: 200px;
+    padding: 50px 20px 50px 20px;
     margin-right: 20px;
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
     margin-right: 50px;
+}
+
+.contenedor-img-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cliente-img {
+    width: 150px;
+    height: auto;
+    filter: grayscale(1)
+}
+
+.cliente-img:hover {
+    filter: grayscale(0)
 }
 
 /* CONTACTO */
@@ -849,12 +866,30 @@ html, body {
     background-color: #F3F9F9;
     width: 300px;
     min-width: 300px;
-    height: 300px;
     border-radius: 20px;
+    padding: 50px 0px 50px 0px;
 }
 
 .cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
     margin-right: 50px;
+}
+
+.contenedor-img-cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cliente-img {
+    width: 150px;
+    height: auto;
+    filter: grayscale(1)
+}
+
+.cliente-img:hover {
+    filter: grayscale(0)
 }
 
 /* CONTACTO */
@@ -1327,6 +1362,11 @@ html, body {
     .cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
         transform: translate(40px);
         margin-right: 50px;
+    }
+
+    .cliente-img {
+        width: 100%;
+        height: auto;
     }
     
     /* CONTACTO */
@@ -1803,6 +1843,11 @@ html, body {
     .cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
         transform: translate(40px);
         margin-right: 50px;
+    }
+
+    .cliente-img {
+        width: 100%;
+        height: auto;
     }
     
     /* CONTACTO */
