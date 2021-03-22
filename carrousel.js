@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('.center').slick({
-        autoplay: true,
         centerMode: true,
         centerPadding: '50px',
         slidesToShow: 1,
