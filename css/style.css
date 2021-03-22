@@ -386,13 +386,21 @@ body {
 .fila-clientes-logos {
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: nowrap;
 }
 
 .cliente-contenedor {
     background-color: #F3F9F9;
-    padding: 70px 20px 70px 20px;
+    width: 200px;
+    min-width: 200px;
+    height: 250px;
+    min-height: 200px;
     margin-right: 20px;
     border-radius: 20px;
+}
+
+.cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
+    margin-right: 50px;
 }
 
 /* CONTACTO */
@@ -846,7 +854,6 @@ html, body {
 }
 
 .cliente-contenedor-1, .cliente-contenedor-2, .cliente-contenedor-3, .cliente-contenedor-4, .cliente-contenedor-5 {
-    transform: translate(40px);
     margin-right: 50px;
 }
 
