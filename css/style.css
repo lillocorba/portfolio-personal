@@ -1,5 +1,9 @@
 /* COMPUTADORA */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     box-sizing: border-box;
@@ -27,7 +31,7 @@ body {
 }
 
 .contenedorContacto {
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .menu-contacto {
@@ -79,7 +83,7 @@ body {
     display: block;
     cursor: pointer;
     z-index: 2;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .linea1 {
@@ -370,6 +374,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .contenedor-right-arrow {
