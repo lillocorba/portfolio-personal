@@ -1036,6 +1036,9 @@ html, body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    background-image: url(../imagenes/shape-contacto.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .contacto-columna-1 {
