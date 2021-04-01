@@ -50,16 +50,11 @@ body {
     position: absolute;
     right: 0;
     z-index: 1;
-    transform: translate(100%);
+    transform: translate(0%, -100%);
     background-color: #F3F4F8;
     opacity: 0.8;
     color: white;
     transition: all 1s ease-in-out;
-}
-
-.active {
-    transform: translate(0%);
-    opacity: 1;
 }
 
 .nav-links a {
@@ -73,6 +68,16 @@ body {
     margin-top: 20px;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+}
+
+.active {
+    transform: translate(0%);
+    opacity: 1;
+}
+
+.close {
+    transform: translate(0px, -1000px);
+    opacity: 0.8;
 }
 
 .linkMenu:hover {
