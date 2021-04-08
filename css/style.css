@@ -145,7 +145,7 @@ body {
 
 .hero-h1 {
     font-weight: bold;
-    font-size: 5.5em;
+    font-size: 6.5em;
     transform: translate(-150%);
     opacity: 0;
     transition: all 1s ease-in-out;
