@@ -119,6 +119,21 @@ document.addEventListener('scroll', function () {
     }
 })
 
+/* ANIMACIONES SKILLS */
+
+const titulosSkills = document.querySelector('.fila-skills-titulos')
+const skills = document.querySelector('.fila-skills-logos')
+
+document.addEventListener('scroll', function () {
+    if (window.scrollY > (window.pageYOffset + titulosSkills.getBoundingClientRect().top) - (window.innerHeight / 0.9)) {
+
+        titulosSkills.classList.add('fila-skills-titulos-active')
+        skills.classList.add('fila-skills-logos-active')
+
+    }
+})
+
+
 /* ANIMACIONES CONTACTO */
 
 const titulosContacto = document.querySelector('.fila-contacto-titulos')
