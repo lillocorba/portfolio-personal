@@ -1,7 +1,5 @@
 /* COMPUTADORA */
 
-@media (min-width: 1200px) {
-
 html {
     scroll-behavior: smooth;
 }
@@ -545,6 +543,14 @@ body {
     justify-content: start;
     margin-top: 30px;
     padding-left: 55px;
+    opacity: 0;
+    transform: translate(0px, 100px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.fila-skills-logos-active {
+    opacity: 1;
+    transform: translate(0px);
 }
 
 .contenedor-skill {
@@ -680,7 +686,6 @@ body {
     margin-top: 10px;
     font-weight: bold;
     color: #A5A5A5;
-}
 }
 
 /* MEDIA QUERIES */
