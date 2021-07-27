@@ -87,6 +87,16 @@ document.addEventListener('scroll', function () {
     }
 })
 
+const proyecto5 = document.querySelector('.proyecto-contenedor-5')
+
+document.addEventListener('scroll', function () {
+    if (window.scrollY > (window.pageYOffset + proyecto5.getBoundingClientRect().top) - (window.innerHeight / 0.9)) {
+
+        proyecto5.classList.add('proyecto-contenedor-5-active')
+
+    }
+})
+
 /* ANIMACIONES CLIENTES */
 
 const titulosClientes = document.querySelector('.fila-clientes-titulo')
