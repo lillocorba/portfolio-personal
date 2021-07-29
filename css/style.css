@@ -809,6 +809,7 @@ body {
         background-color: #F3F4F8;
         border-radius: 1000px;
         padding: 50px 70px 50px 70px;
+        margin-left: 0px;
         opacity: 0;
         transform: translate(150%) rotate(70deg);
         transition: all 1.5s ease-in-out;
