@@ -132,6 +132,7 @@ body {
 .fondoEmoji {
     background-color: #F3F4F8;
     border-radius: 1000px;
+    margin-left: 50px;
     padding: 100px 140px 100px 140px;
     opacity: 0;
     transform: translate(150%) rotate(70deg);
@@ -836,6 +837,8 @@ body {
         font-weight: regular;
         text-align: center;
         font-size: 2em;
+        line-height: 1.5;
+        margin-top: 20px;
         transform: translate(-150%);
         opacity: 0;
         transition: all 1s ease-in-out 0.2s;
