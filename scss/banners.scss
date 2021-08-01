@@ -1,0 +1,327 @@
+.contenedorBanners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerDesarrollo {
+    background-color: #F7F4F3;
+    width: 1000px;
+    min-width: 1000px;
+    border-radius: 20px;
+    padding: 0px 75px 0px 75px;
+    overflow: hidden;
+    margin-top: 100px;
+    opacity: 0;
+    transform: translate(0px, 100px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.bannerDesarrollo-active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.bannerDesarrollo-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bannerDesarrollo-col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bannerDesarrollo-h3,
+.bannerDiseño-h3 {
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.bannerDesarrollo-p,
+.bannerDiseño-p {
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+.img-desarrollo {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.bannerDiseño {
+    background-color: #F3F4F8;
+    width: 1000px;
+    min-width: 1000px;
+    border-radius: 20px;
+    padding: 0px 75px 0px 75px;
+    overflow: hidden;
+    margin-top: 30px;
+    opacity: 0;
+    transform: translate(0px, 100px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.bannerDiseño-active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.bannerDiseño-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.img-diseño {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+/* MEDIA QUERIES */
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+    .contenedorBanners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerDesarrollo {
+        background-color: #F7F4F3;
+        width: 300px;
+        height: 400px;
+        min-width: 300px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .bannerDesarrollo-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .bannerDesarrollo-col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .bannerDesarrollo-h3,
+    .bannerDiseño-h3 {
+        font-weight: bold;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .bannerDesarrollo-p,
+    .bannerDiseño-p {
+        font-weight: 400;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .img-desarrollo {
+        width: 350px;
+        height: auto;
+    }
+
+    .bannerDiseño {
+        background-color: #F3F4F8;
+        width: 300px;
+        height: 400px;
+        min-width: 300px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .bannerDiseño-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .img-diseño {
+        width: 350px;
+        height: auto;
+        transform: translate(10px, 30px);
+    }
+
+}
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contenedorBanners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerDesarrollo {
+        background-color: #F7F4F3;
+        width: 600px;
+        height: 300px;
+        min-width: 600px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 75px;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .bannerDesarrollo-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .bannerDesarrollo-col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .bannerDesarrollo-h3,
+    .bannerDiseño-h3 {
+        font-weight: bold;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .bannerDesarrollo-p,
+    .bannerDiseño-p {
+        font-weight: 400;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .img-desarrollo {
+        width: 350px;
+        transform: translate(150px, 500px);
+        margin-top: 50px;
+    }
+
+    .bannerDiseño {
+        background-color: #F3F4F8;
+        width: 600px;
+        height: 300px;
+        min-width: 600px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 50px;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .bannerDiseño-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .img-diseño {
+        width: 350px;
+        height: auto;
+        transform: translate(-100px, 0px);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contenedorBanners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bannerDesarrollo {
+        background-color: #F7F4F3;
+        width: 900px;
+        height: 300px;
+        min-width: 900px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 75px;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .bannerDesarrollo-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .bannerDesarrollo-col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .bannerDesarrollo-h3,
+    .bannerDiseño-h3 {
+        font-weight: bold;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    .bannerDesarrollo-p,
+    .bannerDiseño-p {
+        font-weight: 400;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .img-desarrollo {
+        width: 500px;
+        height: auto;
+        transform: translate(30px, -20px);
+    }
+
+    .bannerDiseño {
+        background-color: #F3F4F8;
+        width: 900px;
+        height: 300px;
+        min-width: 900px;
+        border-radius: 20px;
+        padding: 50px 50px 50px 50px;
+        overflow-x: hidden;
+        margin-top: 50px;
+        position: relative;
+        flex-wrap: nowrap;
+    }
+
+    .bannerDiseño-col1 {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .img-diseño {
+        width: 500px;
+        height: auto;
+        transform: translate(-100px, 0px);
+    }
+
+}

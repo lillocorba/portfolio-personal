@@ -1,0 +1,270 @@
+/* MENU */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contenedorLogo {
+    padding-top: 25px;
+}
+
+.logoMenu {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.contenedorContacto {
+    padding-top: 35px;
+}
+
+.menu-contacto {
+    font-size: 1.4em;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    transform: translate(0%, -100%);
+    background-color: #F3F4F8;
+    opacity: 0.8;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.linkMenu {
+    color: #313131;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    transform: translate(0%);
+    opacity: 1;
+}
+
+.close {
+    transform: translate(0px, -1000px);
+    opacity: 0.8;
+}
+
+.linkMenu:hover {
+    font-size: 5.5em;
+}
+
+.burgerBtn {
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: 40px;
+}
+
+.linea1 {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.linea2 {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    margin-top: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.linea1-active {
+    transform: rotate(-45deg) translate(-4px, 0px);
+    background-color: black;
+}
+
+.linea2-active {
+    transform: rotate(45deg) translate(-5px, -2px);
+    background-color: black;
+}
+
+/* MEDIA QUERIES */
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+
+    .menu {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .contenedorLogo {
+        padding-top: 30px;
+    }
+
+    .linkMenu {
+        color: #313131;
+        font-size: 4em;
+        font-weight: bold;
+        margin-top: 15px;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .nav-links {
+        padding: 0px;
+    }
+
+    .linkMenu:hover {
+        font-size: 5.5em;
+    }
+
+    .logoMenu {
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .contenedorContacto {
+        padding-top: 35px;
+    }
+
+    .menu-contacto {
+        font-size: 1em;
+    }
+
+    .menu-contacto-whatsapp {
+        display: none;
+    }
+
+    .burgerBtn {
+        margin-top: 37px;
+    }
+
+    .linea1 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+    }
+
+    .linea2 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+        margin-top: 5px;
+    }
+
+}
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .contenedorLogo {
+        padding-top: 30px;
+    }
+
+    .logoMenu {
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .contenedorContacto {
+        padding-top: 35px;
+    }
+
+    .menu-contacto {
+        font-size: 1em;
+    }
+
+    .menu-contacto-whatsapp {
+        display: none;
+    }
+
+    .burgerBtn {
+        margin-top: 37px;
+    }
+
+    .linea1 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+    }
+
+    .linea2 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+        margin-top: 5px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .contenedorLogo {
+        padding-top: 30px;
+    }
+
+    .logoMenu {
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    .contenedorContacto {
+        padding-top: 35px;
+    }
+
+    .menu-contacto {
+        font-size: 1em;
+    }
+
+    .menu-contacto-whatsapp {
+        display: none;
+    }
+
+    .burgerBtn {
+        margin-top: 37px;
+    }
+
+    .linea1 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+    }
+
+    .linea2 {
+        background-color: black;
+        width: 20px;
+        height: 3px;
+        border-radius: 100px;
+        margin-top: 5px;
+    }
+
+}

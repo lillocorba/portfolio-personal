@@ -1,0 +1,192 @@
+.container-skills {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.fila-skills-titulos {
+    margin-top: 100px;
+    padding-left: 40px;
+    opacity: 0;
+    transform: translate(0px, 100px);
+    transition: all 1s ease-in-out 0.2s;
+}
+
+.fila-skills-titulos-active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.fila-skills-logos {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    padding-left: 55px;
+    opacity: 0;
+    transform: translate(0px, 100px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.fila-skills-logos-active {
+    opacity: 1;
+    transform: translate(0px);
+}
+
+.contenedor-skill {
+    background-color: #F7F4F3;
+    padding: 31px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.contenedor-skill:hover {
+    background-color: #F3F9F9;
+}
+
+/* MEDIA QUERIES */
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+    .container-skills {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .fila-skills-titulos {
+        margin-top: 100px;
+        padding-left: 40px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-titulos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .fila-skills-logos {
+        display: flex;
+        justify-content: start;
+        margin-top: 30px;
+        padding-left: 55px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-logos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .contenedor-skill {
+        background-color: #F7F4F3;
+        padding: 40px;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-skill:hover {
+        background-color: #F3F9F9;
+    }
+}
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container-skills {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .fila-skills-titulos {
+        margin-top: 100px;
+        padding-left: 40px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-titulos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .fila-skills-logos {
+        display: flex;
+        justify-content: start;
+        margin-top: 30px;
+        padding-left: 55px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-logos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .contenedor-skill {
+        background-color: #F7F4F3;
+        padding: 45px;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-skill:hover {
+        background-color: #F3F9F9;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-skills {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .fila-skills-titulos {
+        margin-top: 100px;
+        padding-left: 40px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-titulos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .fila-skills-logos {
+        display: flex;
+        justify-content: start;
+        margin-top: 30px;
+        padding-left: 55px;
+        opacity: 0;
+        transform: translate(0px, 0px);
+        transition: all 1s ease-in-out 0.2s;
+    }
+
+    .fila-skills-logos-active {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+
+    .contenedor-skill {
+        background-color: #F7F4F3;
+        padding: 50px;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-skill:hover {
+        background-color: #F3F9F9;
+    }
+
+}
