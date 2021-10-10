@@ -1,0 +1,26 @@
+.hero__marketing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+}
+
+.hero__marketing__col1__img {
+    width: 400px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.hero__marketing__col2__h2 {
+    font-weight: bold;
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.hero__marketing__col2__p {
+    font-size: 1.6em;
+    line-height: 2;
+}
