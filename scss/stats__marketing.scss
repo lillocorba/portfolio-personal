@@ -1,0 +1,15 @@
+.stats__marketing {
+    padding: 100px;
+    background-color: rgb(243, 244, 248);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.stats__marketing__h3 {
+    color: rgb(128, 136, 163);
+    font-size: 3em;
+    font-weight: bold;
+}

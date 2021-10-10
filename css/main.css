@@ -1843,13 +1843,51 @@ body {
 .hero__marketing__col1__img {
   width: 400px;
   height: auto;
-  border-radius: 100%; }
+  border-radius: 100%;
+  box-shadow: 0px 0px 100px rgba(128, 136, 163, 0.55); }
 
 .hero__marketing__col2__h2 {
   font-weight: bold;
   font-size: 5em;
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
 
 .hero__marketing__col2__p {
   font-size: 1.6em;
-  line-height: 2; }
+  line-height: 2;
+  color: #333; }
+
+.stats__marketing {
+  padding: 100px;
+  background-color: #f3f4f8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center; }
+
+.stats__marketing__h3 {
+  color: #8088a3;
+  font-size: 3em;
+  font-weight: bold; }
+
+.clientes__marketing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.clientes__marketing__row {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: 2fr;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 75px; }
+
+.clientes__marketing__row__cliente__img {
+  width: 100px;
+  height: auto;
+  filter: grayscale(1);
+  opacity: 0.5; }
